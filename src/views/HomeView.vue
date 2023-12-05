@@ -35,7 +35,7 @@
         <p>Continue watching</p>
         <div class="watchingnow-details">
           <div v-for="watching in WatchingList" :key="watching.id" class="watching">
-            <img :src="require(`@/assets/${watching.imgURL}`)"/>
+            <img :src="require(`@/assets/${watching.imgURL}`)" />
 
             <button id="add"><i class="fa fa-heart"></i></button>
 
