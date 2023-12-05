@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "imgURL": "Rectangle212.png",
+        "title" : "Life in Paris",
+        "info": "2023 | Documentary series"
+    },
+    {
+        "id": 2,
+        "imgURL": "Rectangle213.png",
+        "title" : "Moonfall",
+        "info": "2022 | Sci-fi"
+    },
+    {
+        "id": 3,
+        "imgURL": "Rectangle214.png",
+        "title" : "Life in Paris",
+        "info": "2023 | Documentary series"
+    },
+    {
+        "id": 4,
+        "imgURL": "Rectangle215.png",
+        "title" : "House of Gucci",
+        "info": "2021 | Drama"
+    }
+]
+
+
+

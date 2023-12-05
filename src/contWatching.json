@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "imgURL": "IMG_7779.jpg",
+        "title" : "Rema",
+        "info": "2023 | Music"
+    },
+    {
+        "id": 2,
+        "imgURL": "IMG_7778.jpg",
+        "title" : "Rema",
+        "info": "2022 | Music"
+    },
+    {
+        "id": 3,
+        "imgURL": "IMG_7777.jpg",
+        "title" : "Rema",
+        "info": "2023 | Music"
+    }
+]
+
+

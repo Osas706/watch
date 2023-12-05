@@ -1,30 +1,43 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+  <div>
+    <WelcomeScreen v-if="login" @toggleToLogin="login = false"/>
+    <div v-else>
+      <NavLink />
+      <router-view/>
+    </div>
+    
+  </div>
+ 
 </template>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+<script>
+import NavLink from './components/NavLink.vue'
+import WelcomeScreen from './views/WelcomeScreen.vue'
 
-nav {
-  padding: 30px;
-}
 
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
+export default{
+  name: 'App',
+  data(){
+    return{
+      login: true,
+    }
+  },
+  components: {
+    NavLink,
+    WelcomeScreen,
 
-nav a.router-link-exact-active {
-  color: #42b983;
+  }
+}
+</script>
+
+<style lang="scss">
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.3s ease;
+  width: auto;
+  height: auto;
+  
 }
 </style>

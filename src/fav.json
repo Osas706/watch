@@ -1,0 +1,15 @@
+[
+    {
+        "id": 1,
+        "imgURL": "math.jpg",
+        "title" : "Bullet science",
+        "info": "2022 | Action comedy"
+    },
+    {
+        "id": 2,
+        "imgURL": "luxury4.jpg",
+        "title" : "House of Gucci",
+        "info": "2022 | Drama"
+    }
+]
+
